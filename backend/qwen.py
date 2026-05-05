@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 
 def launch():
     global model_path
-    model_path = "/storage/ice-shared/vip-vp4/Fall2025/gptoss/hub/models--openai--gpt-oss-20b/snapshots/6cee5e81ee83917806bbde320786a8fb61efebee"
+    #model_path = "" edit this to a valid local model path
     sched_path = "scheduler.py"
     ics_path = "working.ics"
     print(ics_path)
