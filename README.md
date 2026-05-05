@@ -2,7 +2,7 @@
 
 # Operation Steps:
 
-### Step 1) Run "git clone https://github.gatech.edu/OLIVES-VIP-VP4-AIMN/M-VA-Sched" to create a local instance of the repository on the Makerspace
+### Step 1) Run "git clone https://github.gatech.edu/OLIVES-VIP-VP4-AIMN/M-VA-Sched" to create a local instance of the repository
 ### Step 2) Run "cd M-VA-Sched" to move into the cloned Repository
 ### Step 3) Run command "sh install.sh" to run the setup file and install all dependencies
 ### Step 4) Run command "sh run.sh" to start the frontend and backend and launch the app
@@ -19,7 +19,6 @@ Flask Endpoints:
 - api/clear (POST): Resets working.ics to a minimal blank VCALENDAR, saves history.
 - api/undo (POST): Restores the previous version from ics_history.
 - api/redo (POST): Restores the next version from ics_history.
-- api/configure-engage (POST): Sets the CampusLabs Engage API bearer token
 
 
 
@@ -41,7 +40,7 @@ Agent Use:
 **Backend/ics_parser.py:** Handles parsing and interpreting calendar data from .ics files. It reads event blocks (VEVENT) and converts them into structured Python dictionaries containing each event’s UID, summary, start and end datetimes, and raw text. Helper functions parse different datetime formats used in ICS files, including all-day and timezone-neutral events. It can then convert parsed events into busy time intervals for scheduling logic and generate human-readable summaries of event times.
 
 
-**Backend/Qwen.py:** Connects to Qwen model path and scheduler.py. Initializes model and scheduling algorithm and interprets NLP into structured data that can be appended to calendar.  
+**Backend/Qwen.py:** Connects to model path and scheduler.py. Initializes model and scheduling algorithm and interprets NLP into structured data that can be appended to calendar.  
 
 
 
