@@ -1,6 +1,4 @@
-# Fall 2025 Monday Scheduling Team Wiki
-
-10/20 Demo Video: https://drive.google.com/file/d/1NsDSxTyORqbHUPkdTTMWeGxyCjcU-nVX/view?usp=sharing
+# This project was created from January 2025 to December 2025 as part of the AI Makerspace Nexus at Georgia Tech. It is intended to be run on a linux based system.
 
 # Operation Steps:
 
