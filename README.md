@@ -4,6 +4,7 @@
 
 ### Step 1) Run "git clone https://github.gatech.edu/OLIVES-VIP-VP4-AIMN/M-VA-Sched" to create a local instance of the repository
 ### Step 2) Run "cd M-VA-Sched" to move into the cloned Repository
+### Step 2B) Edit model_path in qwen.py to a valid location of a local transformers LLM model
 ### Step 3) Run command "sh install.sh" to run the setup file and install all dependencies
 ### Step 4) Run command "sh run.sh" to start the frontend and backend and launch the app
 
